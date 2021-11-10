@@ -85,7 +85,7 @@ html,body{
     margin-right:0.3cm;
     padding: 0.2cm;
     
-    transition: background-color 1.5s;
+    transition: background-color 1s;
   }
   #about-me-text:hover{
     background-color: rgb(156, 235, 215);
@@ -100,7 +100,7 @@ html,body{
     margin-right:0.3cm;
     margin-bottom: 0.3cm;
     padding: 0.2cm;
-    transition: background-color 1.5s;
+    transition: background-color 1s;
   }
   #about-me-text2:hover{
     background-color: rgb(156, 235, 215);
@@ -116,7 +116,7 @@ html,body{
     margin-right:0.3cm;
     margin-bottom: 0.3cm;
     padding: 0.2cm;
-    transition: background-color 1.5s;
+    transition: background-color 1s;
   }
   #about-me-text3:hover{
     background-color: rgb(156, 235, 215);
