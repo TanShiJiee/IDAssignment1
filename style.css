@@ -39,7 +39,7 @@ html,body{
   
   
   h2{
-    color: rgb(88, 76, 75);
+    color: rgb(143, 139, 139);
   }
   ul a{
     color: rgb(138, 83, 83);
@@ -67,6 +67,10 @@ html,body{
   img{
     width:100%;
     display:inline-flex;
+    opacity: 1;
+    width: 90%;
+    margin: 5%;
+    
   }
   #welcome-button{
     border-radius: 10px;
@@ -148,7 +152,7 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rosybrown;
+    background-color: rgb(116, 88, 88);
     width:100%;
   }
   
@@ -164,8 +168,12 @@ html,body{
     padding: 3%;
     margin-bottom: 3%;
     margin-left: 2%;
+    opacity: 0.6;
+    transition: opacity 1.2s;
     
-    
+  }
+  .skills:hover{
+    opacity:1;
   }
   #skills-section{
     font-size: 13pt;
@@ -211,6 +219,26 @@ html,body{
     border-radius: 40px;
 
   }
+  form{
+    background-color: lightsteelblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-left: 8%;
+    margin-top: 3%;
+    border-radius:20px;
+    padding:2%;
+    justify-content: center;
+    
+  }
+  label,input{
+    display:flex;
+    justify-content: center;
+    
+  }
   
   
   
@@ -238,29 +266,32 @@ html,body{
     .name-text{
       margin-left: 8%;
     }
+    
     #photo1{
       position: absolute;
       display: inline-block;
-      width:25%;
+      width:24%;
       top:22%;
-      margin-left:1cm;
+      margin:1cm;
     
     }   
      
     #photo2{
       display: inline-block;
       position: absolute;
-      top:20%;
-      left:30%;
-      width:23%;
+      top:20.5%;
+      left:27%;
+      width:24%;
       padding: 10px;
+      margin:1cm;
     }
     #photo3{
       position: absolute;
       top:22%;
-      right:3%;
+      right:1%;
       display: inline-flex;
-      width:40%;
+      width:39%;
+      margin:1cm;
       
   
     }
