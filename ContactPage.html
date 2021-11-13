@@ -8,7 +8,7 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
   </head>
   <body>
     <script src="script.js"></script>
@@ -33,27 +33,40 @@
         </a>
     </section>
     <section id="contact-info">
-      <h3><ins>Contact Information</ins></h3>
-      <p><b>Email:</b> tshijie23@gmail.com</p>
+      <h3 id="header-text"><ins>Contact Information</ins></h3>
+
+      <p><b>Location:</b> Singapore <br/>
+        <b>Instagram:</b>@shii.jiee<br/>
+        <b>Email:</b> tshijie23@gmail.com</p>
+      
+      
+      
       <p><small>or leave a message in the form.</small> </p>
 
     </section>
     <section>
       <form>
-        <label><b>Name: </b>
-          <input type="text" required>
+        <div>
+          <h4><ins>Fill In the Form:</ins></h4>
+          <label><b>Name: </b>
+            <input type="text" required>
+          </label><br/>
+  
+          <label><b>Email: </b>
+            <input type="email" required>
           </label>
-        <label><b>Email: </b>
-          <input type="email" required>
-        </label>
-        <br/>
-        <label><b>Message: </b>
-          <textarea></textarea>
-        </label>
-        <input type="submit">
+          
+          <br/>
+          <p><b>Message: </b></p>
+          <textarea></textarea><br/>
+          <input type="submit" id="submit-button">
+
+        </div>
+        
         
       </form>
     </section>
+    
 
 
 
