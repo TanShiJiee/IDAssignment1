@@ -72,6 +72,7 @@ html,body{
     margin: 5%;
     
   }
+  
   #welcome-button{
     border-radius: 10px;
     bottom:0;
@@ -168,8 +169,8 @@ html,body{
     padding: 3%;
     margin-bottom: 3%;
     margin-left: 2%;
-    opacity: 0.6;
-    transition: opacity 1.2s;
+    opacity: 0.4;
+    transition: opacity 1s;
     
   }
   .skills:hover{
@@ -198,11 +199,12 @@ html,body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14pt;
     border-radius: 40px;
+    word-wrap: break-word;
   }
     
   
   button:hover{
-    background-color: rgb(203, 210, 216);
+    background-color: rgb(238, 235, 190);
 
   }
   #contact-info{
@@ -214,13 +216,23 @@ html,body{
     padding:2%;
     margin-left: 8%;
     justify-content: center;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13pt;
     border-radius: 40px;
+    word-wrap: break-word;
+
+  }
+
+  #resume-button{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 
   }
   form{
-    background-color: lightsteelblue;
+
+    background-color: rgb(215, 216, 174);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13pt;
     display: flex;
@@ -231,15 +243,38 @@ html,body{
     margin-top: 3%;
     border-radius:20px;
     padding:2%;
-    justify-content: center;
-    
+   
   }
-  label,input{
+  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  label{
+    word-wrap: break-word;
     display:flex;
     justify-content: center;
     
   }
-  
+  input{
+    display:flex;
+    justify-content: center;
+    width:47%;
+
+  }
+  textarea{
+    display:flex;
+    justify-content: center;
+    width:30%;
+  }
+  #submit-button{
+    display: flex;
+    justify-content: center;
+    width:30%;
+   
+  }
   
   
   
@@ -273,8 +308,13 @@ html,body{
       width:24%;
       top:22%;
       margin:1cm;
+      transition: width 1.2s;
     
-    }   
+    }  
+    #photo1:hover{
+      width: 24.5%;
+
+    } 
      
     #photo2{
       display: inline-block;
@@ -284,7 +324,13 @@ html,body{
       width:24%;
       padding: 10px;
       margin:1cm;
+      transition: width 1.2s;
     }
+    #photo2:hover{
+      width: 24.5%;
+
+    } 
+
     #photo3{
       position: absolute;
       top:22%;
@@ -292,9 +338,15 @@ html,body{
       display: inline-flex;
       width:39%;
       margin:1cm;
+      transition: width 1.2s;
       
   
     }
+    #photo3:hover{
+      width: 39.5%;
+
+    } 
+
     #welcome-button{
       position: absolute;
       width:100%;
@@ -333,5 +385,17 @@ html,body{
     #about-me-text4{
       width:30%;
       margin-left: 8%;
+    }
+    
+    /*Contact Page*/
+    /*change the layout of the form to beside*/
+    form{
+      padding-top: 2%;
+      padding-bottom: 3%;
+      display:flex;
+      position:absolute;
+      top:57px;
+      right:1%;
+      
     }
   }
