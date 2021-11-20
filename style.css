@@ -187,6 +187,181 @@ html,body{
     
   }
   /*Portfolio Page*/
+  #portfolio-text1{
+    border-top: 3px solid ghostwhite;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 5%;
+    color:thistle;
+    padding:1%;
+    background-color: rgb(42, 42, 66);
+    border-radius: 40px;
+    width: 40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15pt;
+  }
+  #portfolio-text2{
+    border-top: 3px solid ghostwhite;
+    
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top:170%;
+    align-items: center;
+    margin-left: 5%;
+    color:thistle;
+    padding:1%;
+    background-color: rgb(42, 42, 66);
+    border-radius: 40px;
+    width: 40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15pt;
+  }
+
+    /*Slideshow*/
+  #portfolio-slides1{
+    font-size:0;
+    border-radius: 50px;
+    position: absolute;
+    top:35%;
+    right:25%;
+      
+    width:45%;
+    display:flex;
+    flex-wrap: wrap;
+    overflow: hidden; 
+    border:5px solid rgb(175, 175, 143);
+  }
+    /*align photo to the top*/
+  #portfolio-cert1{
+    width:100%;
+    font-size:0;
+    top:0;
+    z-index: 7;
+    position: relative;
+    display: inline-block;
+    opacity:1;
+    transition: transform 1s;
+  }
+  #portfolio-cert2{
+    width:100%;
+    font-size:0;
+    top:0;
+    z-index: 6;
+    position: absolute;
+    display: inline-block;
+    opacity:0;
+    transition: transform 1s;
+  }
+  #portfolio-cert3{
+    width:100%;
+    font-size:0;
+    top:0;
+    z-index: 5;
+    position: absolute;
+    display: inline-block;
+    opacity:0;
+    transition: transform 1s;
+  }
+  #portfolio-cert4{
+    width:100%;
+    font-size:0;
+    top:0;
+    z-index: 4;
+    position: absolute;
+    display: inline-block;
+    opacity:0;
+    transition: transform 1s;
+  }
+  #portfolio-cert5{
+    width:100%;
+    font-size:0;
+    top:0;
+    z-index: 3;
+    position: absolute;
+    display: inline-block;
+    opacity:0;
+    transition: transform 1s;
+  }
+  #portfolio-cert6{
+    width:100%;
+    font-size:0;
+    top:0;
+    z-index: 2;
+    position: absolute;
+    display: inline-block;
+    opacity:0;
+    transition: transform 1s;
+  }
+  #portfolio-cert7{
+    width:100%;
+    font-size:0;
+    top:0;
+    z-index: 1;
+    position: absolute;
+    display: inline-block;
+    
+    transition: transform 1s;
+  }
+  #turn-button{
+    color: rgb(135, 144, 184);
+    font-size: 30pt;
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    background-color: rgb(119, 126, 136);
+    
+    z-index: 8;
+    
+    width: 7%;
+    transition: 0.6s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+ 
+    
+    
+ 
+  #left-button, #right-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight: bold;
+
+  }
+  #left-button:hover{
+    background-color: rgb(219, 216, 216,0.5);
+    
+    
+  }
+
+  
+
+  #right-button:hover{
+    background-color: rgb(219, 216, 216,0.5);
+    
+    
+  }
+  
+ #others-section{
+   background-color: rgb(238, 238, 234);
+   position:absolute;
+   width:100%;
+   height:100%;
+   top:190%;
+ }
+ #others-header{
+   padding:5%;
+   font-size: 30pt;
+ }
+
+
+
 
   /*Contact Page*/
   button{
@@ -208,6 +383,23 @@ html,body{
   button:hover{
     background-color: rgb(238, 235, 190);
 
+  }
+  #instagram-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+  }
+  #icon1{
+    width:10%;
+    padding-top: 1%;
+    transition-duration: width 1s;
+
+  }
+  #icon1:hover{
+    width:10.5%
   }
   #contact-info{
     display: flex;
@@ -242,7 +434,7 @@ html,body{
     flex-wrap: wrap;
     width: 50%;
     margin-left: 8%;
-    margin-top: 3%;
+    margin-top: 4%;
     border-radius:20px;
     padding:2%;
    
@@ -388,7 +580,63 @@ html,body{
       width:30%;
       margin-left: 8%;
     }
+    #about-container1{
+      font-size:0;
+      border-radius: 50px;
+      position: absolute;
+      top:15%;
+      right:5%;
+      
+      width:45%;
+      display:inline-block;
+      overflow: hidden;   
+    }
+    #about-photo1{
+      font-size:0;
+      position: relative;
+      
+      display: inline-block;
+      left:0;
+      top:0 ;
+      bottom: 0;
+      transition: transform 1s;
+
+    }
+    #about-photo1:hover{
+      transform: scale(1.3);
+      transform-origin: 50% 50%;
+    }
     
+    #about-container2{
+      font-size:0;
+      border-radius: 50px;
+      position: absolute;
+      top:80%;
+      right:5%;
+      
+      width:45%;
+      display:inline-block;
+      overflow: hidden;   
+    }
+    #about-photo2{
+      font-size:0;
+      position: relative;
+      
+      display: inline-block;
+      left:0;
+      top:0 ;
+      bottom: 0;
+      transition: transform 1s;
+
+    }
+    #about-photo2:hover{
+      transform: scale(1.2);
+      transform-origin: 50% 50%;
+    }
+    
+    /* Portfolio Page */
+    
+
     /*Contact Page*/
     /*change the layout of the form to beside*/
     form{
