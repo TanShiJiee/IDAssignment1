@@ -64,7 +64,7 @@ html,body{
   }
   
   
-  img{
+  img{ /* Image for About me & Certs*/
     width:100%;
     display:inline-flex;
     opacity: 1;
@@ -305,7 +305,7 @@ html,body{
     transition: transform 1s;
   }
   #turn-button{
-    color: rgb(135, 144, 184);
+    color: rgb(194, 202, 240);
     font-size: 30pt;
     cursor: pointer;
     position: absolute;
@@ -336,7 +336,7 @@ html,body{
   }
   #left-button:hover{
     background-color: rgb(219, 216, 216,0.5);
-    
+    border-radius: 30px;
     
   }
 
@@ -344,21 +344,88 @@ html,body{
 
   #right-button:hover{
     background-color: rgb(219, 216, 216,0.5);
-    
+    border-radius: 30px;
     
   }
   
- #others-section{
+ #others-section{ /*container*/
    background-color: rgb(238, 238, 234);
    position:absolute;
    width:100%;
-   height:100%;
+   display:flex;
+   flex-wrap: wrap;
+   flex-direction: column;
    top:190%;
+   
  }
  #others-header{
-   padding:5%;
-   font-size: 30pt;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding:2%;
+  font-size: 30pt;
+  border-bottom: 2px solid rgb(32, 32, 32);
  }
+ #others-header2{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding:1%;
+  font-size: 13pt;
+  border-bottom: 2px solid rgb(32, 32, 32);
+
+ }
+ .others-text1{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(66, 65, 65) ;
+  border-top: 1px solid rgb(66, 65, 65) ;
+  width: 94%;
+  padding: 1%;
+  margin-left:3%;
+   
+ }
+ /* display 1*/
+ .others-row{
+   display: flex;
+   flex-direction: row;
+ }
+ .others-column{
+  /*flex: 25%;*/
+  width: 36%;
+  padding: 0 4px;
+  float:left;
+ 
+  /*display:flex;*/
+    
+  
+  margin-top: 0px;
+ }
+ .others-grid{
+   width:100%;
+ }
+/* display 2*/
+ .others-row{
+  display: flex;
+  flex-direction: row;
+}
+.others-column{
+ /*flex: 25%;*/
+ width: 36%;
+ padding: 0 4px;
+ float:left;
+
+ /*display:flex;*/
+   
+ 
+ margin-top: 0px;
+}
+.others-grid{
+  width:100%;
+}
+
+ 
 
 
 
