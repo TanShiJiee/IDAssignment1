@@ -1,3 +1,8 @@
+
+
+
+//Portfolio Page
+
 const checkCerts = ["#portfolio-cert1", "#portfolio-cert2", "#portfolio-cert3", 
 "#portfolio-cert4", "#portfolio-cert5", "#portfolio-cert6", "#portfolio-cert7"];
 
@@ -39,8 +44,13 @@ function slidesTurn(n){
         
 
     }
-    
-    
 
+}
+
+
+function scrollUp(){
+    //var portfolioTop= getElementById("myDIV");
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 
 }
