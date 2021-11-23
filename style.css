@@ -593,6 +593,7 @@ textarea{
     padding-left: 0;
     padding-right: 0;
   }
+  
   #photo-section{
     width:100%;
     flex-direction: column;
@@ -702,10 +703,10 @@ textarea{
     height:60%;
     
   }
-  .skills{
+  /*.skills{
     width:40%;
     height:60%;
-  }
+  }*/
   
 
   /*portfolio Page*/
@@ -987,9 +988,9 @@ textarea{
     font-size:23pt;
   }
   /*skills section*/
-  #skills-section{
+  /*#skills-section{
 
-  }
+  }*/
 
 }
 /* Ipad Pro 12.9 Inch, 1024*1366 */
@@ -1014,7 +1015,18 @@ textarea{
 @media screen and (min-width: 1280px){
   .name-text{
     margin-left: 8%;
+    font-size: 30pt;
   }
+  #menu-bar{
+    display:flex;
+    width: 100%;
+    position: absolute;
+    right:5%;
+    top:2%;
+  }
+
+  
+
   
   #photo1{
     position: absolute;
@@ -1066,7 +1078,7 @@ textarea{
     width:100%;
     bottom:0;
   }
-  
+  ul a
     
   
   .nav-bar ul{
@@ -1074,12 +1086,13 @@ textarea{
     background-color: gainsboro;
     position: absolute;
     top: 0%;
-    left: 46%; 
+    font-size: 30pt;
     flex-wrap: wrap;
     list-style-type: none;
     justify-content: space-evenly;
-    width:50%;
-    
+    width:100%;
+    padding-top:2%;
+    padding-bottom:2%;
   }
   
   /*About me Page*/
