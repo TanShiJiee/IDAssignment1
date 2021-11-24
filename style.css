@@ -995,7 +995,7 @@ textarea{
     width: 50%;
     position: absolute;
     right:5%;
-    top:4.5%;
+    top:35px;
   }
   /*about me page*/
   #about-me-text{
@@ -1051,7 +1051,7 @@ textarea{
   }
   form{
     position: absolute;
-    top: 15%;
+    top: 125px;
     right:3%;
     background-color: rgb(215, 216, 174);
     font-family: Arial, Helvetica, sans-serif;
@@ -1060,7 +1060,7 @@ textarea{
     flex-direction: column;
     flex-wrap: wrap;
     width: 40%;
-    height:50%;
+    height:450px;
     margin:0;
     
     border-radius:20px;
@@ -1069,7 +1069,7 @@ textarea{
 
 
 }
-/* Ipad Pro 12.9 Inch, 1024*1366 */
+/*930 */
 @media screen and (min-width: 930px){
   .name-text{
     margin-left: 8%;
@@ -1082,7 +1082,7 @@ textarea{
     width: 50%;
     position: absolute;
     right:5%;
-    top:4%;
+    top:40px;
     font-size: 20pt;
   }
 
@@ -1094,7 +1094,7 @@ textarea{
     display: inline-block;
     width:24%;
     left:4%;
-    top:22%;
+    top:150px;
     margin:0cm;
     
     transition: width 1.2s;
@@ -1108,7 +1108,7 @@ textarea{
   #photo2{
     display: inline-block;
     position: absolute;
-    top:22%;
+    top:150px;
     left:32%;
     width:24%;
     padding: 0px;
@@ -1122,7 +1122,7 @@ textarea{
 
   #photo3{
     position: absolute;
-    top:22%;
+    top:150px;
     right:1%;
     display: inline-flex;
     width:39%;
@@ -1192,7 +1192,7 @@ textarea{
     font-size:0;
     border-radius: 50px;
     position: absolute;
-    top:40%;
+    top:500px;
     right:3%;
     
     width:53%;
@@ -1219,7 +1219,7 @@ textarea{
     font-size:0;
     border-radius: 50px;
     position: absolute;
-    top:120%;
+    top:1300px;
     right:3%;
     
     width:53%;
@@ -1295,11 +1295,11 @@ textarea{
   }
   #portfolio-text2{
     border-top: 3px solid ghostwhite;
-    
+    margin-top:0;
     display: flex;
     flex-wrap: wrap;
-    position: absolute;
-    top:110%;
+    position: relative;
+    top:0px;
     align-items: center;
     margin-left: 5%;
     color:thistle;
@@ -1313,9 +1313,11 @@ textarea{
   #portfolio-slides1{
     font-size:0;
     border-radius: 50px;
-    position: absolute;
-    top:27%;
-    right:25%;
+    position: relative;
+    top:0px;
+    right:0%;
+    margin-left: 20%;
+    margin-bottom: 5%;
     background-color: rgb(175, 175, 143,0.6);
     width:50%;
     display:flex;
@@ -1370,12 +1372,12 @@ textarea{
   
   #others-section{ /*container*/
     background-color: rgb(238, 238, 234);
-    position:absolute;
+    position:relative;
     width:100%;
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
-    top:140%;
+    top:0px;
     
   }
   #others-header{
@@ -1518,7 +1520,8 @@ textarea{
   
   form{
     position: absolute;
-    top: 20%;
+    top: 150px;
+    height: 400px;
     right:3%;
     background-color: rgb(215, 216, 174);
     font-family: Arial, Helvetica, sans-serif;
@@ -1589,6 +1592,7 @@ textarea{
 
 
 }*/
+/*Web 1280*/
 @media screen and (min-width: 1280px){
   .name-text{
     margin-left: 8%;
@@ -1602,7 +1606,7 @@ textarea{
     width: 50%;
     position: absolute;
     right:5%;
-    top:4%;
+    top:40px;
     font-size: 30pt;
   }
 
@@ -1614,7 +1618,7 @@ textarea{
     display: inline-block;
     width:24%;
     left:4%;
-    top:22%;
+    top:150px;
     margin:0cm;
     
     transition: width 1.2s;
@@ -1628,7 +1632,7 @@ textarea{
   #photo2{
     display: inline-block;
     position: absolute;
-    top:22%;
+    top:150px;
     left:32%;
     width:24%;
     padding: 0px;
@@ -1642,7 +1646,7 @@ textarea{
 
   #photo3{
     position: absolute;
-    top:22%;
+    top:150px;
     right:1%;
     display: inline-flex;
     width:39%;
@@ -1712,7 +1716,7 @@ textarea{
     font-size:0;
     border-radius: 50px;
     position: absolute;
-    top:40%;
+    top:300px;
     right:3%;
     
     width:53%;
@@ -1739,7 +1743,7 @@ textarea{
     font-size:0;
     border-radius: 50px;
     position: absolute;
-    top:120%;
+    top:1000px;
     right:3%;
     
     width:53%;
@@ -1817,8 +1821,8 @@ textarea{
     
     display: flex;
     flex-wrap: wrap;
-    position: absolute;
-    top:130%;
+    position: relative;
+    top:0px;
     align-items: center;
     margin-left: 5%;
     color:thistle;
@@ -1832,9 +1836,13 @@ textarea{
   #portfolio-slides1{
     font-size:0;
     border-radius: 50px;
-    position: absolute;
-    top:27%;
-    right:25%;
+    position: relative;
+    top:0px;
+    margin:0;
+    margin-left:30%;
+    margin-top:5%;
+    margin-bottom:5%;
+    right:0%;
     background-color: rgb(175, 175, 143,0.6);
     width:50%;
     display:flex;
@@ -1889,12 +1897,12 @@ textarea{
   
   #others-section{ /*container*/
     background-color: rgb(238, 238, 234);
-    position:absolute;
+    position:relative;
     width:100%;
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
-    top:160%;
+    top:0px;
     
   }
   #others-header{
@@ -2037,7 +2045,7 @@ textarea{
   
   form{
     position: absolute;
-    top: 20%;
+    top: 160px;
     right:3%;
     background-color: rgb(215, 216, 174);
     font-family: Arial, Helvetica, sans-serif;
@@ -2086,4 +2094,25 @@ textarea{
   
   
 }
+/*web 1920,1920*1080*/
+@media screen and (min-width: 1920px){
+  #about-container1{
+    width:45%;
+    right:5%;
+    top:300px;
+  }
+  #about-container2{
+    position: relative;
+    top:0;
+    right:0;
+    margin-top:3%; 
+  }
+  .nav-bar a{
+    font-size: 30pt;
+  }
+  .name-text{
+    font-size:50pt;
+  }
+}
+
 
