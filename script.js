@@ -54,3 +54,8 @@ function scrollUp(){
     document.documentElement.scrollTop = 0;
 
 }
+
+var message='Thank you!'
+function messageAppear(){
+    
+}
