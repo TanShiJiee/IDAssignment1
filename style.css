@@ -723,7 +723,7 @@ textarea{
     display:flex;
     flex-wrap: wrap;
     overflow: hidden; 
-    border:2% solid rgb(175, 175, 143);
+    border:2px solid rgb(175, 175, 143);
   }
 
   #portfolio-text2{
@@ -1584,7 +1584,7 @@ textarea{
     font-size: 30pt;
     flex-wrap: wrap;
     list-style-type: none;
-    justify-content: space-evenly, center;
+    justify-content: space-evenly;
     align-items: center;
     width:100%;
     padding-top:0;
