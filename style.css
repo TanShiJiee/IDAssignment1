@@ -1,13 +1,16 @@
 html,body{
     min-width: 100%;
   }
+
 body{
   min-width:100%;
   background-color: black;
 }
+
 .name-text{
   margin-left: 30%;
 }
+
 /*Home Page*/
 header{
   display: flex;
@@ -17,29 +20,23 @@ header{
   font-size: 25pt;
   
 }
+
 #menu-bar{
-  
   background-color: rgb(230, 227, 227);
   font-family: 'Source Sans Pro', sans-serif;
   list-style-type: none;
-  text-decoration-style: none;
-  
-  
+  text-decoration-style: dotted;
 }
+
 .nav-bar ul{
-  
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
   justify-content: space-evenly;
   padding:0cm;
-  
-  
-  
-  
 }
+
 .nav-bar li{
-  
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
@@ -48,32 +45,28 @@ header{
   padding-left: 0%;
   padding-right: 0%;
   background-color: rgb(206, 206, 197);
-  
-  
 }
 
 .nav-bar a{
   font-size: 10pt;
-  
 }
-
 
 h2{
   color: rgb(143, 139, 139);
 }
+
 ul a{
   color: rgb(138, 83, 83);
   border-bottom: 2px solid grey;
   background-color: rgb(206, 206, 197);
 }
-  
 
 ul a:hover{
   border-bottom: 2px solid rgb(206, 202, 202);
   color: rgb(56, 47, 47);
   background-color: rgb(238, 236, 228);
-  
 }
+
 a:link {
   text-decoration: none;
 }
@@ -86,14 +79,12 @@ a h2:hover{
   color: rgb(252, 255, 163);
 }
 
-
 img{ /* Image for About me & Certs*/
   width:100%;
   display:inline-flex;
   opacity: 1;
   width: 90%;
   margin: 5%;
-  
 }
 
 #welcome-button{
@@ -102,16 +93,13 @@ img{ /* Image for About me & Certs*/
   font-family: 'ZCOOL QingKe HuangYou', cursive;
   font-size: 20pt;
   width:100%;
-
-
 }
-
-
 
 /*About me Page*/
 #about-me-text{
   border-radius: 10px;
-  display: block-flex;
+  display: flex;
+  flex-direction: column;
   background-color: gainsboro;
   font-family:'Dongle', sans-serif;
   font-size: 15pt;
@@ -119,15 +107,17 @@ img{ /* Image for About me & Certs*/
   margin-bottom: 0.3cm;
   margin-right:0.3cm;
   padding: 0.2cm;
-  
   transition: background-color 0.5s;
 }
+
 #about-me-text:hover{
   background-color: rgb(156, 235, 215);
 }
+
 #about-me-text2{
   border-radius: 10px;
-  display: block-flex;
+  display: flex;
+  flex-direction: column;
   background-color: gainsboro;
   font-family:'Dongle', sans-serif;
   font-size: 15pt;
@@ -137,13 +127,15 @@ img{ /* Image for About me & Certs*/
   padding: 0.2cm;
   transition: background-color 0.5s;
 }
+
 #about-me-text2:hover{
   background-color: rgb(156, 235, 215);
 }
 
 #about-me-text3{
   border-radius: 10px;
-  display: block-flex;
+  display: flex;
+  flex-direction: column;
   background-color: gainsboro;
   font-family:'Dongle', sans-serif;
   font-size: 15pt;
@@ -153,13 +145,15 @@ img{ /* Image for About me & Certs*/
   padding: 0.2cm;
   transition: background-color 0.5s;
 }
+
 #about-me-text3:hover{
   background-color: rgb(156, 235, 215);
 }
 
 #about-me-text4{
   border-radius: 10px;
-  display: block-flex;
+  display: flex;
+  flex-direction: column;
   background-color: gainsboro;
   font-family:'Dongle', sans-serif;
   font-size: 15pt;
@@ -169,9 +163,11 @@ img{ /* Image for About me & Certs*/
   padding: 0.2cm;
   transition: background-color 0.5s;
 }
+
 #about-me-text4:hover{
   background-color: rgb(156, 235, 215);
 }
+
 footer{
   display: flex;
   justify-content: center;
@@ -195,14 +191,13 @@ footer{
   opacity: 0.5;
   overflow: hidden;
   transition: opacity 2s ease-in;
-  
 }
+
 .skills:hover{
   opacity:1;
   width:35%;
-  
-  
 }
+
 #skills-section{
   font-size: 13pt;
   display:flex;
@@ -219,21 +214,12 @@ footer{
   justify-content: center;
 }
 
-
 #skillsChart {
   position: relative;
   display:flex;
-  
   opacity: 0;
   transition: opacity 2s;
-  
-
 }
-/*@keyframes appear{
-  from {opacity: 0;}
-  to {opacity: 1;}
-}*/
-/*Portfolio Page*/
 
 #portfolio-text1{
   border-top: 3px solid ghostwhite;
@@ -250,9 +236,9 @@ footer{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 15pt;
 }
+
 #portfolio-text2{
   border-top: 3px solid ghostwhite;
-  
   display: flex;
   flex-wrap: wrap;
   position: absolute;
@@ -281,8 +267,8 @@ footer{
   flex-wrap: wrap;
   overflow: hidden; 
   border:5px solid rgb(175, 175, 143);
-  
 }
+
   /*align photo to the top*/
 #portfolio-cert1{
   width:100%;
@@ -294,6 +280,7 @@ footer{
   opacity:1;
   transition: transform 1s;
 }
+
 #portfolio-cert2{
   width:100%;
   font-size:0;
@@ -304,6 +291,7 @@ footer{
   opacity:0;
   transition: transform 1s;
 }
+
 #portfolio-cert3{
   width:100%;
   font-size:0;
@@ -314,6 +302,7 @@ footer{
   opacity:0;
   transition: transform 1s;
 }
+
 #portfolio-cert4{
   width:100%;
   font-size:0;
@@ -324,6 +313,7 @@ footer{
   opacity:0;
   transition: transform 1s;
 }
+
 #portfolio-cert5{
   width:100%;
   font-size:0;
@@ -334,6 +324,7 @@ footer{
   opacity:0;
   transition: transform 1s;
 }
+
 #portfolio-cert6{
   width:100%;
   font-size:0;
@@ -344,6 +335,7 @@ footer{
   opacity:0;
   transition: transform 1s;
 }
+
 #portfolio-cert7{
   width:100%;
   font-size:0;
@@ -351,9 +343,9 @@ footer{
   z-index: 1;
   position: absolute;
   display: inline-block;
-    
   transition: transform 1s;
 }
+
 #turn-button{
   color: rgb(194, 202, 240);
   font-size: 30pt;
@@ -361,9 +353,7 @@ footer{
   position: absolute;
   top: 45%;
   background-color: rgb(119, 126, 136);
-  
   z-index: 8;
-  
   width: 7%;
   transition: 0.6s ease;
   display: flex;
@@ -371,31 +361,22 @@ footer{
   justify-content: center;
 }
 
-
-
-  
-  
-
 #left-button, #right-button{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   font-weight: bold;
-
 }
+
 #left-button:hover{
   background-color: rgb(219, 216, 216,0.5);
   border-radius: 30px;
-    
 }
-
-
 
 #right-button:hover{
   background-color: rgb(219, 216, 216,0.5);
   border-radius: 30px;
-  
 }
 
 #others-section{ /*container*/
@@ -406,8 +387,8 @@ footer{
   flex-wrap: wrap;
   flex-direction: column;
   top:190%;
-  
 }
+
 #others-header{
   display: flex;
   flex-wrap: wrap;
@@ -416,6 +397,7 @@ footer{
   font-size: 30pt;
   border-bottom: 2px solid rgb(32, 32, 32);
 }
+
 #others-header2{
   display: flex;
   flex-wrap: wrap;
@@ -423,8 +405,8 @@ footer{
   padding:1%;
   font-size: 13pt;
   border-bottom: 2px solid rgb(32, 32, 32);
-
 }
+
 .others-text1{
   display:flex;
   align-items: center;
@@ -437,56 +419,45 @@ footer{
   font-size: 15pt;
   font-family: "Times New Roman", Times, serif; 
 }
+
 /* display 1*/
 .others-row{
   display: flex;
   flex-direction: row;
 }
+
 .others-column{
-/*flex: 25%;*/
   width: 36%;
   padding: 0 4px;
   float:left;
-
-/*display:flex;*/
-  
-
   margin-top: 0px;
 }
+
 .others-grid{
   width:100%;
 }
+
 /* display 2*/
 .others-row{
   display: flex;
   flex-direction: row;
 }
+
 .others-column{
 /*flex: 25%;*/
   width: 36%;
   padding: 0 4px;
   float:left;
-
-/*display:flex;*/
-  
-
   margin-top: 0px;
 }
 
 #scroll-up{
-  
   width:30%;
   margin: 10%;
   display:flex;
   flex-wrap: wrap;
   flex-direction: column;
-  
-  
 }
-
-
-
-
 
 /*Contact Page*/
 button{
@@ -504,28 +475,26 @@ button{
   word-wrap: break-word;
 }
   
-
 button:hover{
   background-color: rgb(238, 235, 190);
-
 }
+
 #instagram-link{
   display: flex;
   align-items: center;
   justify-content: center;
-  
-  
-
 }
+
 #icon1{
   width:10%;
   padding-top: 1%;
   transition-duration: width 1s ease;
-
 }
+
 #icon1:hover{
   width:10.5%
 }
+
 #contact-info{
   display: flex;
   flex-direction: column;
@@ -540,21 +509,17 @@ button:hover{
   font-size: 13pt;
   border-radius: 40px;
   word-wrap: break-word;
-
 }
+
 #contact-header-form{
   font-family: 'Share Tech Mono', monospace;
 }
+
 .contact-label{
   font-family: 'Share Tech Mono', monospace;;
-
 }
 
-
-
-
 form{
-
   background-color: rgb(215, 216, 174);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13pt;
@@ -566,8 +531,8 @@ form{
   margin-top: 4%;
   border-radius:20px;
   padding:2%;
-  
 }
+
 div{
   display: flex;
   justify-content: center;
@@ -575,38 +540,30 @@ div{
   flex-direction: column;
   flex-wrap: wrap;
 }
+
 label{
   word-wrap: break-word;
   display:flex;
   justify-content: center;
-
 }
+
 input{
   display:flex;
   justify-content: center;
   width:60%;
-
 }
+
 textarea{
   display:flex;
   justify-content: center;
   width:60%;
-
 }
+
 #submit-button{
   display: flex;
   justify-content: center;
   width:30%;
-  
 }
-
-
-
-
-
-
-
-
 
 /* Samsung Galaxy S10, 360*760 */
 @media screen and (min-width: 360px){
@@ -617,20 +574,17 @@ textarea{
     display:flex;
     align-items: center;
     justify-content: center;
-    
-  
   }
-  
-    
   
   .nav-bar{
     width:100%;
     margin-right: 0;
   }
+
   .nav-bar a{
     font-size: 9pt;
-    
   }
+
   .nav-bar ul{
     width:100%;
     margin-bottom:2%;
@@ -646,24 +600,26 @@ textarea{
     align-items: center;
     justify-content: center;
     margin:0;
-    
   }
+
   #photo1{
     padding:0;
     margin:0;
     width:60%;
     transition: width 1.2s;
   }
+
   #photo1:hover{
     width:61%
   }
+
   #photo2{
-    
     padding:0;
     margin:0;
     width:60%;
     transition: width 1.2s;
   }
+
   #photo2:hover{
     width:61%;
   }
@@ -675,6 +631,7 @@ textarea{
     width:60%;
     transition: width 1.2s;
   }
+
   #photo3:hover{
     width:61%;
   }
@@ -685,23 +642,22 @@ textarea{
     border-radius: 50px;
     position: relative;
     flex-direction: row;
-    
     margin-bottom: 4%;
     width:100%;
     display:flex;
     overflow: hidden;   
   }
+
   #about-photo1{
     font-size:0;
-    position: relative;
-    
+    position: relative; 
     display: flex;
     left:0;
     top:0 ;
     bottom: 0;
     transition: transform 1s;
-
   }
+
   #about-photo1:hover{
     transform: scale(1.3);
     transform-origin: 50% 50%;
@@ -712,23 +668,21 @@ textarea{
     border-radius: 50px;
     position: relative;
     top:80%;
-    
-    
     width:100%;
     display:flex;
     overflow: hidden;   
   }
+
   #about-photo2{
     font-size:0;
     position: relative;
-    
     display: inline-block;
     left:0;
     top:0 ;
     bottom: 0;
     transition: transform 1s;
-
   }
+
   #about-photo2:hover{
     transform: scale(1.2);
     transform-origin: 50% 50%;
@@ -746,13 +700,7 @@ textarea{
     flex-flow: row wrap;
     flex:1 100%;
     height:60%;
-    
   }
-  /*.skills{
-    width:40%;
-    height:60%;
-  }*/
-  
 
   /*portfolio Page*/
   #portfolio-text1{
@@ -760,6 +708,7 @@ textarea{
     font-size: 11pt;
     width: 60%;
   }
+
   #portfolio-slides1{
     font-size:0;
     border-radius: 50px;
@@ -775,23 +724,23 @@ textarea{
     flex-wrap: wrap;
     overflow: hidden; 
     border:2% solid rgb(175, 175, 143);
-    
   }
+
   #portfolio-text2{
     margin-top: 15%;
     position: relative;
     font-size: 11pt;
     width: 60%;
   }
+
   #others-section{
     margin-top: 7%;
     position: relative;
     margin-left: 0%;
     width: 100%;
-
   }
+
   #scroll-up{
-  
     width:80%;
     margin-top: 10%;
     display:flex;
@@ -799,9 +748,8 @@ textarea{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
-    
   }
+
   /*Contact Page*/
   button{ /*general*/
     display: flex;
@@ -809,7 +757,6 @@ textarea{
     background-color: gainsboro;
     width: 100%;
     padding:2%;
-    
     margin-bottom: 3%;
     justify-content: center;
     align-items: center;
@@ -819,6 +766,7 @@ textarea{
     border-radius: 40px;
     word-wrap: break-word;
   }
+
   #linkedin-button button{
     margin:0;
     margin-left: 0%;
@@ -827,30 +775,28 @@ textarea{
     display:flex;
     justify-content: center;
     align-items: center;
-    
   }
   
   button:hover{
     background-color: rgb(238, 235, 190);
-  
   }
+
   #instagram-link{
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    
-  
   }
+
   #icon1{
     width:10%;
     padding-top: 1%;
-    transition-duration: width 1s ease;
-  
+    transition: width 1s ease;
   }
+
   #icon1:hover{
     width:10.5%
   }
+
   #contact-info{
     display: flex;
     flex-direction: column;
@@ -866,21 +812,17 @@ textarea{
     font-size: 13pt;
     border-radius: 30px;
     word-wrap: break-word;
-  
   }
+
   #contact-header-form{
     font-family: 'Share Tech Mono', monospace;
   }
+
   .contact-label{
-    font-family: 'Share Tech Mono', monospace;;
-  
+    font-family: 'Share Tech Mono', monospace;
   }
   
-  
-  
-  
   form{
-  
     background-color: rgb(215, 216, 174);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13pt;
@@ -893,8 +835,8 @@ textarea{
     margin-bottom: 5%;;
     border-radius:20px;
     padding:2%;
-    
   }
+
   div{
     display: flex;
     justify-content: center;
@@ -902,34 +844,32 @@ textarea{
     flex-direction: column;
     flex-wrap: wrap;
   }
+
   label{
     word-wrap: break-word;
     display:flex;
     justify-content: center;
-  
   }
+
   input{
     display:flex;
     justify-content: center;
     width:47%;
-  
   }
+
   textarea{
     display:flex;
     justify-content: center;
     width:60%;
-  
   }
+
   #submit-button{
     display: flex;
     justify-content: center;
     width:30%;
-    
   }
 
-
 }
-
 
 /* Iphone 12 Pro Max, 428*926 */
 @media screen and (min-width: 428px){
@@ -940,10 +880,7 @@ textarea{
     display:flex;
     align-items: center;
     justify-content: center;
-    
-  
   }
-  
   
   #menu-bar{
     width:100%;
@@ -951,16 +888,17 @@ textarea{
     font-family: 'Source Sans Pro', sans-serif;
     list-style-type: none;
     text-decoration-style: none;
-    
-    
   }
+
   .nav-bar{
     margin:0;
     margin-bottom:0%;
   }
+
   .nav-bar a{
     font-size: 10pt;
   }
+
   .nav-bar ul{
     width:100%;
     margin:0;
@@ -968,9 +906,11 @@ textarea{
     padding-left: 0;
     padding-right: 0;
   }
+
   #photo1{
     margin-top:2%;
   }
+
   /*about me page*/
   #about-me-text{
     margin-top: 2%;
@@ -988,15 +928,14 @@ textarea{
     margin-right: 0;
     align-items: center;
     justify-content: center;
-    
   }
+
   /*contact page*/
   #linkedin-button{
     margin-top: 2%;
   }
+
 }
-
-
 
 /* Ipad Nexus 9, 768*1024 */
 @media screen and (min-width: 768px){
@@ -1005,17 +944,14 @@ textarea{
     margin-left:5%;
     margin-right:5%;
     display:flex;
-    
-    
-    
-  
   }
+  
   p.name-text{
     display:flex;
     align-items: center;
     justify-content: center;
-
   }
+
   #menu-bar{
     display:flex;
     width: 50%;
@@ -1023,31 +959,32 @@ textarea{
     right:5%;
     top:35px;
   }
+
   /*about me page*/
   #about-me-text{
     margin-left:5%;
     margin-right:5%;
     font-size:23pt;
   }
+
   #about-me-text2{
     margin-left:5%;
     margin-right:5%;
     font-size:23pt;
   }
+
   #about-me-text3{
     margin-left:5%;
     margin-right:5%;
     font-size:23pt;
   }
+
   #about-me-text4{
     margin-left:5%;
     margin-right:5%;
     font-size:23pt;
   }
-  /*skills section*/
-  /*#skills-section{
-
-  }*/
+ 
   /*contact page*/
   #contact-info{
     display: flex;
@@ -1065,6 +1002,7 @@ textarea{
     word-wrap: break-word;
   
   }
+
   #linkedin-button button{
     margin:0;
     margin-left: 5%;
@@ -1075,6 +1013,7 @@ textarea{
     align-items: center;
     font-size: 15pt;
   }
+
   form{
     position: absolute;
     top: 125px;
@@ -1088,19 +1027,19 @@ textarea{
     width: 40%;
     height:450px;
     margin:0;
-    
     border-radius:20px;
     padding:2%;
   }
 
-
 }
+
 /*930 */
 @media screen and (min-width: 930px){
   .name-text{
     margin-left: 8%;
     font-size: 30pt;
   }
+
   #menu-bar{
     display:flex;
     align-items: center;
@@ -1111,9 +1050,6 @@ textarea{
     top:40px;
     font-size: 20pt;
   }
-
-  
-
   
   #photo1{
     position: absolute;
@@ -1122,13 +1058,11 @@ textarea{
     left:4%;
     top:150px;
     margin:0cm;
-    
     transition: width 1.2s;
-  
   }  
+
   #photo1:hover{
     width: 24.5%;
-
   } 
     
   #photo2{
@@ -1141,9 +1075,9 @@ textarea{
     margin-right:0;
     transition: width 1.2s;
   }
+
   #photo2:hover{
     width: 24.5%;
-
   } 
 
   #photo3{
@@ -1154,12 +1088,10 @@ textarea{
     width:39%;
     margin-right:0;
     transition: width 1.2s;
-    
-
   }
+  
   #photo3:hover{
     width: 39.5%;
-
   } 
 
   #welcome-button{
@@ -1167,14 +1099,11 @@ textarea{
     width:100%;
     bottom:0;
   }
+
   .nav-bar{
     margin:0;
     margin-bottom:2%;
-
   }
-  
-  
-    
   
   .nav-bar ul{
     display: flex;
@@ -1188,8 +1117,8 @@ textarea{
     align-items: center;
     width:100%;
     padding-top:0;
-    
   }
+
   .nav-bar a{
     font-size: 14pt;
   }
@@ -1201,41 +1130,43 @@ textarea{
     width:30%;
     margin-left: 3%;
   }
+
   #about-me-text2{
     width:30%;
     margin-left: 8%;
-
   }
+
   #about-me-text3{
     width:30%;
     margin-left: 3%;
   }
+
   #about-me-text4{
     width:30%;
     margin-left: 8%;
   }
+
   #about-container1{
     font-size:0;
     border-radius: 50px;
     position: absolute;
     top:500px;
     right:3%;
-    
     width:53%;
     display:inline-block;
     overflow: hidden;   
   }
+
   #about-photo1{
     font-size:0;
     position: relative;
-    
     display: inline-block;
     left:0;
     top:0 ;
     bottom: 0;
     transition: transform 1s;
-
   }
+
   #about-photo1:hover{
     transform: scale(1.3);
     transform-origin: 50% 50%;
@@ -1247,26 +1178,26 @@ textarea{
     position: absolute;
     top:1300px;
     right:3%;
-    
     width:53%;
     display:inline-block;
     overflow: hidden;   
   }
+
   #about-photo2{
     font-size:0;
     position: relative;
-    
     display: inline-block;
     left:0;
     top:0 ;
     bottom: 0;
     transition: transform 1s;
-
   }
+
   #about-photo2:hover{
     transform: scale(1.2);
     transform-origin: 50% 50%;
   }
+
   /* Skills Section*/
   .skills{
     background-color: gainsboro;
@@ -1283,13 +1214,13 @@ textarea{
     margin:2%;
     opacity: 0.5;
     transition: opacity 2s;
-    
   }
+
   .skills:hover{
     opacity:1;
     width:35%;
-    
   }
+
   #skills-section{
     font-size: 13pt;
     display:flex;
@@ -1297,7 +1228,6 @@ textarea{
     margin-top:2%;
     flex-flow: row wrap;
     flex:1 100%;
-    
   }
 
   /* Portfolio Page */
@@ -1310,7 +1240,6 @@ textarea{
     margin:0;
     margin-top: 2%;
     margin-left: 5%;
-    
     color:thistle;
     padding:1%;
     background-color: rgb(42, 42, 66);
@@ -1319,6 +1248,7 @@ textarea{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20pt;
   }
+
   #portfolio-text2{
     border-top: 3px solid ghostwhite;
     margin-top:0;
@@ -1336,6 +1266,7 @@ textarea{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20pt;
   }
+
   #portfolio-slides1{
     font-size:0;
     border-radius: 50px;
@@ -1359,9 +1290,7 @@ textarea{
     position: absolute;
     top: 45%;
     background-color: rgb(119, 126, 136);
-    
     z-index: 8;
-    
     width: 7%;
     transition: 0.6s ease;
     display: flex;
@@ -1369,31 +1298,22 @@ textarea{
     justify-content: center;
   }
   
-  
-  
-    
-    
-  
   #left-button, #right-button{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     font-weight: bold;
-  
   }
+
   #left-button:hover{
     background-color: rgb(219, 216, 216,0.5);
     border-radius: 30px;
-      
   }
-  
-  
-  
+    
   #right-button:hover{
     background-color: rgb(219, 216, 216,0.5);
     border-radius: 30px;
-    
   }
   
   #others-section{ /*container*/
@@ -1404,8 +1324,8 @@ textarea{
     flex-wrap: wrap;
     flex-direction: column;
     top:0px;
-    
   }
+
   #others-header{
     display: flex;
     flex-wrap: wrap;
@@ -1414,6 +1334,7 @@ textarea{
     font-size: 30pt;
     border-bottom: 2px solid rgb(32, 32, 32);
   }
+
   #others-header2{
     display: flex;
     flex-wrap: wrap;
@@ -1421,8 +1342,8 @@ textarea{
     padding:1%;
     font-size: 13pt;
     border-bottom: 2px solid rgb(32, 32, 32);
-  
   }
+
   .others-text1{
     display:flex;
     align-items: center;
@@ -1435,39 +1356,34 @@ textarea{
     font-size: 15pt;
     font-family: "Times New Roman", Times, serif; 
   }
+
   /* display 1*/
   .others-row{
     display: flex;
     flex-direction: row;
   }
+
   .others-column{
-  /*flex: 25%;*/
     width: 36%;
     padding: 0 4px;
     float:left;
-  
-  /*display:flex;*/
-    
-  
     margin-top: 0px;
   }
+
   .others-grid{
     width:100%;
   }
+
   /* display 2*/
   .others-row{
     display: flex;
     flex-direction: row;
   }
+
   .others-column{
-  /*flex: 25%;*/
     width: 36%;
     padding: 0 4px;
     float:left;
-  
-  /*display:flex;*/
-    
-  
     margin-top: 0px;
   }
   
@@ -1478,11 +1394,8 @@ textarea{
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
-    
-    
   }
   
-
   /*Contact Page*/
   /*change the layout of the form to beside*/
   #linkedin-button button{
@@ -1498,25 +1411,24 @@ textarea{
   
   button:hover{
     background-color: rgb(238, 235, 190);
-  
   }
+
   #instagram-link{
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    
-  
   }
+
   #icon1{
     width:10%;
     padding-top: 1%;
     transition-duration: width 1s ease;
-  
   }
+
   #icon1:hover{
     width:10.5%
   }
+
   #contact-info{
     display: flex;
     flex-direction: column;
@@ -1531,18 +1443,15 @@ textarea{
     font-size: 13pt;
     border-radius: 40px;
     word-wrap: break-word;
-  
   }
+
   #contact-header-form{
     font-family: 'Share Tech Mono', monospace;
   }
+
   .contact-label{
     font-family: 'Share Tech Mono', monospace;;
-  
   }
-  
-  
-  
   
   form{
     position: absolute;
@@ -1557,7 +1466,6 @@ textarea{
     flex-wrap: wrap;
     width: 40%;
     margin:0;
-    
     border-radius:20px;
     padding:2%;
   }
@@ -1569,55 +1477,33 @@ textarea{
     flex-direction: column;
     flex-wrap: wrap;
   }
+
   label{
     word-wrap: break-word;
     display:flex;
     justify-content: center;
-  
   }
+
   input{
     display:flex;
     justify-content: center;
     width:60%;
-  
   }
+
   textarea{
     display:flex;
     justify-content: center;
     width:60%;
-  
   }
+
   #submit-button{
     display: flex;
     justify-content: center;
     width:30%;
-    
   }
-  
-  
+
 }
-/*@media screen and (min-width: 1100px){
-  #portfolio-text2{
-    border-top: 3px solid ghostwhite;
-    
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    top:135%;
-  }
-  #others-section{ /*container
-    background-color: rgb(238, 238, 234);
-    position:absolute;
-    width:100%;
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    top:170%;
-  }
-    
 
-
-}*/
 /*Web 1280*/
 @media screen and (min-width: 1280px){
   .name-text{
@@ -1635,9 +1521,6 @@ textarea{
     top:40px;
     font-size: 30pt;
   }
-
-  
-
   
   #photo1{
     position: absolute;
@@ -1646,13 +1529,11 @@ textarea{
     left:4%;
     top:150px;
     margin:0cm;
-    
     transition: width 1.2s;
-  
   }  
+
   #photo1:hover{
     width: 24.5%;
-
   } 
     
   #photo2{
@@ -1665,9 +1546,9 @@ textarea{
     margin-right:0;
     transition: width 1.2s;
   }
+
   #photo2:hover{
     width: 24.5%;
-
   } 
 
   #photo3{
@@ -1678,12 +1559,10 @@ textarea{
     width:39%;
     margin-right:0;
     transition: width 1.2s;
-    
-
   }
+
   #photo3:hover{
     width: 39.5%;
-
   } 
 
   #welcome-button{
@@ -1691,14 +1570,11 @@ textarea{
     width:100%;
     bottom:0;
   }
+
   .nav-bar{
     margin:0;
     margin-bottom:2%;
-
   }
-  
-  
-    
   
   .nav-bar ul{
     display: flex;
@@ -1712,8 +1588,8 @@ textarea{
     align-items: center;
     width:100%;
     padding-top:0;
-    
   }
+
   .nav-bar a{
     font-size: 15pt;
   }
@@ -1725,41 +1601,44 @@ textarea{
     width:30%;
     margin-left: 3%;
   }
+
   #about-me-text2{
     width:30%;
     margin-left: 8%;
 
   }
+
   #about-me-text3{
     width:30%;
     margin-left: 3%;
   }
+
   #about-me-text4{
     width:30%;
     margin-left: 8%;
   }
+
   #about-container1{
     font-size:0;
     border-radius: 50px;
     position: absolute;
     top:300px;
     right:3%;
-    
     width:53%;
     display:inline-block;
     overflow: hidden;   
   }
+
   #about-photo1{
     font-size:0;
     position: relative;
-    
     display: inline-block;
     left:0;
     top:0 ;
     bottom: 0;
     transition: transform 1s;
-
   }
+
   #about-photo1:hover{
     transform: scale(1.3);
     transform-origin: 50% 50%;
@@ -1771,26 +1650,26 @@ textarea{
     position: absolute;
     top:1000px;
     right:3%;
-    
     width:53%;
     display:inline-block;
     overflow: hidden;   
   }
+
   #about-photo2{
     font-size:0;
     position: relative;
-    
     display: inline-block;
     left:0;
     top:0 ;
     bottom: 0;
     transition: transform 1s;
-
   }
+
   #about-photo2:hover{
     transform: scale(1.2);
     transform-origin: 50% 50%;
   }
+
   /* Skills Section*/
   .skills{
     background-color: gainsboro;
@@ -1807,13 +1686,13 @@ textarea{
     opacity: 0.5;
     transition: opacity 2s;
     overflow: hidden;
-    
   }
+
   .skills:hover{
     opacity:1;
     width:35%;
-    
   }
+
   #skills-section{
     font-size: 13pt;
     display:flex;
@@ -1821,7 +1700,6 @@ textarea{
     margin-top:2%;
     flex-flow: row wrap;
     flex:1 100%;
-    
   }
 
   /* Portfolio Page */
@@ -1834,7 +1712,6 @@ textarea{
     margin:0;
     margin-top: 2%;
     margin-left: 5%;
-    
     color:thistle;
     padding:1%;
     background-color: rgb(42, 42, 66);
@@ -1843,9 +1720,9 @@ textarea{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20pt;
   }
+
   #portfolio-text2{
     border-top: 3px solid ghostwhite;
-    
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -1860,6 +1737,7 @@ textarea{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20pt;
   }
+
   #portfolio-slides1{
     font-size:0;
     border-radius: 50px;
@@ -1885,9 +1763,7 @@ textarea{
     position: absolute;
     top: 45%;
     background-color: rgb(119, 126, 136);
-    
     z-index: 8;
-    
     width: 7%;
     transition: 0.6s ease;
     display: flex;
@@ -1895,31 +1771,22 @@ textarea{
     justify-content: center;
   }
   
-  
-  
-    
-    
-  
   #left-button, #right-button{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     font-weight: bold;
-  
   }
+
   #left-button:hover{
     background-color: rgb(219, 216, 216,0.5);
     border-radius: 30px;
-      
   }
-  
-  
-  
+
   #right-button:hover{
     background-color: rgb(219, 216, 216,0.5);
     border-radius: 30px;
-    
   }
   
   #others-section{ /*container*/
@@ -1930,8 +1797,8 @@ textarea{
     flex-wrap: wrap;
     flex-direction: column;
     top:0px;
-    
   }
+
   #others-header{
     display: flex;
     flex-wrap: wrap;
@@ -1940,6 +1807,7 @@ textarea{
     font-size: 30pt;
     border-bottom: 2px solid rgb(32, 32, 32);
   }
+
   #others-header2{
     display: flex;
     flex-wrap: wrap;
@@ -1947,8 +1815,8 @@ textarea{
     padding:1%;
     font-size: 13pt;
     border-bottom: 2px solid rgb(32, 32, 32);
-  
   }
+
   .others-text1{
     display:flex;
     align-items: center;
@@ -1961,39 +1829,34 @@ textarea{
     font-size: 15pt;
     font-family: "Times New Roman", Times, serif; 
   }
+
   /* display 1*/
   .others-row{
     display: flex;
     flex-direction: row;
   }
+
   .others-column{
-  /*flex: 25%;*/
     width: 36%;
     padding: 0 4px;
     float:left;
-  
-  /*display:flex;*/
-    
-  
     margin-top: 0px;
   }
+
   .others-grid{
     width:100%;
   }
+
   /* display 2*/
   .others-row{
     display: flex;
     flex-direction: row;
   }
+
   .others-column{
-  /*flex: 25%;*/
     width: 36%;
     padding: 0 4px;
     float:left;
-  
-  /*display:flex;*/
-    
-  
     margin-top: 0px;
   }
   
@@ -2004,11 +1867,8 @@ textarea{
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
-    
-    
   }
   
-
   /*Contact Page*/
   /*change the layout of the form to beside*/
   #linkedin-button button{
@@ -2024,25 +1884,24 @@ textarea{
   
   button:hover{
     background-color: rgb(238, 235, 190);
-  
   }
+
   #instagram-link{
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    
-  
   }
+
   #icon1{
     width:10%;
     padding-top: 1%;
     transition-duration: width 1s ease;
-  
   }
+
   #icon1:hover{
     width:10.5%
   }
+
   #contact-info{
     display: flex;
     flex-direction: column;
@@ -2057,18 +1916,15 @@ textarea{
     font-size: 13pt;
     border-radius: 40px;
     word-wrap: break-word;
-  
   }
+
   #contact-header-form{
     font-family: 'Share Tech Mono', monospace;
   }
+
   .contact-label{
     font-family: 'Share Tech Mono', monospace;;
-  
   }
-  
-  
-  
   
   form{
     position: absolute;
@@ -2082,7 +1938,6 @@ textarea{
     flex-wrap: wrap;
     width: 40%;
     margin:0;
-    
     border-radius:20px;
     padding:2%;
   }
@@ -2098,29 +1953,28 @@ textarea{
     word-wrap: break-word;
     display:flex;
     justify-content: center;
-  
   }
+
   input{
     display:flex;
     justify-content: center;
     width:60%;
-  
   }
+
   textarea{
     display:flex;
     justify-content: center;
     width:60%;
-  
   }
+
   #submit-button{
     display: flex;
     justify-content: center;
     width:30%;
-    
   }
-  
-  
+
 }
+
 /*web 1920,1920*1080*/
 @media screen and (min-width: 1920px){
   #about-container1{
@@ -2128,25 +1982,28 @@ textarea{
     right:5%;
     top:300px;
   }
+
   #about-container2{
     position: relative;
     top:0;
     right:0;
     margin-top:3%; 
   }
+
   .nav-bar a{
     font-size: 30pt;
   }
+
   .name-text{
     font-size:50pt;
   }
+
   form{
     top:300px;
   }
+
   input{
     width:80%;
   }
   
 }
-
-
