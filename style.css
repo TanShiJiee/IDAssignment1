@@ -1113,7 +1113,7 @@ textarea{
     font-size: 20pt;
     flex-wrap: wrap;
     list-style-type: none;
-    justify-content: space-evenly, center;
+    justify-content: space-evenly;
     align-items: center;
     width:100%;
     padding-top:0;
@@ -1977,6 +1977,12 @@ textarea{
 
 /*web 1920,1920*1080*/
 @media screen and (min-width: 1920px){
+  .name-text{
+    margin:0;
+    margin-top:34px;
+    margin-left: 8%;
+    font-size: 23pt;
+  }
   #about-container1{
     width:45%;
     right:5%;
