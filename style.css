@@ -212,25 +212,27 @@ footer{
   
 }
 #skillsButton{
+  margin-left: 0;
   width:50%;
   display:flex;
   align-items: center;
   justify-content: center;
 }
-@keyframes appear{
-  from{justify-content: flex-start;}
-  to {justify-content: center;}
-}
-#skillsChart img{
+
+
+#skillsChart {
   position: relative;
   display:flex;
   
-  justify-content: flex-start;
-  animation-name: appear;
-  animation-duration: 10s;
+  opacity: 0;
+  transition: opacity 2s;
   
 
 }
+/*@keyframes appear{
+  from {opacity: 0;}
+  to {opacity: 1;}
+}*/
 /*Portfolio Page*/
 
 #portfolio-text1{

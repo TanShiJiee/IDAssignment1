@@ -56,5 +56,20 @@ function scrollUp(){
 }
 
 
+function contentAppear(){
+    
+    var chart=document.querySelector("#skillsChart")
+    console.log(chart)
+    var transparency=chart.style.opacity
+    console.log(transparency)
+    if (transparency==0){
+        chart.style.opacity=1 ;
+    }
+    else{
+        chart.style.opacity=0;
+    }
+    
+    
+}
 
 
