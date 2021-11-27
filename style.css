@@ -488,7 +488,7 @@ button:hover{
 #icon1{
   width:10%;
   padding-top: 1%;
-  transition-duration: width 1s ease;
+  transition: width 1s ease;
 }
 
 #icon1:hover{
@@ -1422,7 +1422,7 @@ textarea{
   #icon1{
     width:10%;
     padding-top: 1%;
-    transition-duration: width 1s ease;
+    transition: width 1s ease;
   }
 
   #icon1:hover{
@@ -1895,7 +1895,7 @@ textarea{
   #icon1{
     width:10%;
     padding-top: 1%;
-    transition-duration: width 1s ease;
+    transition: width 1s ease;
   }
 
   #icon1:hover{
