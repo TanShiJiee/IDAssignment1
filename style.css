@@ -515,7 +515,7 @@ button:hover{
   word-wrap: break-word;
 }
 
-#contact-header-form{
+#contact-form-header{
   font-family: 'Share Tech Mono', monospace;
 }
 
@@ -524,7 +524,7 @@ button:hover{
 }
 
 form{
-  background-color: rgb(215, 216, 174);
+  background-color: rgb(251, 252, 213);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13pt;
   display: flex;
@@ -770,21 +770,42 @@ textarea{
     border-radius: 40px;
     word-wrap: break-word;
   }
-
-  #linkedin-button button{
-    margin:0;
-    margin-left: 0%;
-    margin-bottom: 2%;
-    width:100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
   button:hover{
     background-color: rgb(238, 235, 190);
   }
 
+  #linkedin-button{
+    position: relative;
+    font-family: 'Share Tech Mono', monospace;
+    border-radius: 30pt;
+    padding:2% ;
+    background-color: rgb(255, 250, 205);
+    margin:0;
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    width:94%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #linkedin-link {
+    background-color: rgb(255, 250, 205);
+    color:rgb(95, 67, 71) ;
+    width:100%;
+    display:flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  #linkedin-link:hover{
+    background-color: rgb(235, 231, 196) ;
+    
+  }
+  
   #instagram-link{
     display: flex;
     align-items: center;
@@ -818,7 +839,7 @@ textarea{
     word-wrap: break-word;
   }
 
-  #contact-header-form{
+  #contact-form-header{
     font-family: 'Share Tech Mono', monospace;
   }
 
@@ -827,7 +848,7 @@ textarea{
   }
   
   form{
-    background-color: rgb(215, 216, 174);
+    background-color: rgb(251, 252, 213);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13pt;
     display: flex;
@@ -1007,11 +1028,11 @@ textarea{
   
   }
 
-  #linkedin-button button{
+  #linkedin-button{
     margin:0;
-    margin-left: 5%;
+    margin-left: 4%;
     margin-bottom: 2%;
-    width:44%;
+    width:43%;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -1022,7 +1043,7 @@ textarea{
     position: absolute;
     top: 125px;
     right:3%;
-    background-color: rgb(215, 216, 174);
+    background-color: rgb(251, 252, 213);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13pt;
     display: flex;
@@ -1127,81 +1148,6 @@ textarea{
     font-size: 14pt;
   }
   
-  /*About me Page*/
-  #about-me-text{
-    margin-top:3%;
-    position: relative;
-    width:30%;
-    margin-left: 3%;
-  }
-
-  #about-me-text2{
-    width:30%;
-    margin-left: 8%;
-  }
-
-  #about-me-text3{
-    width:30%;
-    margin-left: 3%;
-  }
-
-  #about-me-text4{
-    width:30%;
-    margin-left: 8%;
-  }
-
-  #about-container1{
-    font-size:0;
-    border-radius: 50px;
-    position: absolute;
-    top:500px;
-    right:3%;
-    width:53%;
-    display:inline-block;
-    overflow: hidden;   
-  }
-
-  #about-photo1{
-    font-size:0;
-    position: relative;
-    display: inline-block;
-    left:0;
-    top:0 ;
-    bottom: 0;
-    transition: transform 1s;
-  }
-
-  #about-photo1:hover{
-    transform: scale(1.3);
-    transform-origin: 50% 50%;
-  }
-  
-  #about-container2{
-    font-size:0;
-    border-radius: 50px;
-    position: absolute;
-    top:1300px;
-    right:3%;
-    width:53%;
-    display:inline-block;
-    overflow: hidden;   
-  }
-
-  #about-photo2{
-    font-size:0;
-    position: relative;
-    display: inline-block;
-    left:0;
-    top:0 ;
-    bottom: 0;
-    transition: transform 1s;
-  }
-
-  #about-photo2:hover{
-    transform: scale(1.2);
-    transform-origin: 50% 50%;
-  }
-
   /* Skills Section*/
   .skills{
     background-color: gainsboro;
@@ -1402,9 +1348,9 @@ textarea{
   
   /*Contact Page*/
   /*change the layout of the form to beside*/
-  #linkedin-button button{
+  #linkedin-button{
     margin:0;
-    margin-left: 5%;
+    margin-left: 3%;
     margin-bottom: 2%;
     width:40%;
     display:flex;
@@ -1449,7 +1395,7 @@ textarea{
     word-wrap: break-word;
   }
 
-  #contact-header-form{
+  #contact-form-header{
     font-family: 'Share Tech Mono', monospace;
   }
 
@@ -1462,7 +1408,7 @@ textarea{
     top: 150px;
     height: 400px;
     right:3%;
-    background-color: rgb(215, 216, 174);
+    background-color: rgb(248, 248, 209);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13pt;
     display: flex;
@@ -1602,23 +1548,23 @@ textarea{
   #about-me-text{
     margin-top:3%;
     position: relative;
-    width:30%;
+    width:33%;
     margin-left: 3%;
   }
 
   #about-me-text2{
-    width:30%;
+    width:32%;
     margin-left: 8%;
 
   }
 
   #about-me-text3{
-    width:30%;
+    width:33%;
     margin-left: 3%;
   }
 
   #about-me-text4{
-    width:30%;
+    width:32%;
     margin-left: 8%;
   }
 
@@ -1875,9 +1821,9 @@ textarea{
   
   /*Contact Page*/
   /*change the layout of the form to beside*/
-  #linkedin-button button{
+  #linkedin-button{
     margin:0;
-    margin-left: 5%;
+    margin-left: 3%;
     margin-bottom: 2%;
     width:40%;
     display:flex;
@@ -1922,10 +1868,6 @@ textarea{
     word-wrap: break-word;
   }
 
-  #contact-header-form{
-    font-family: 'Share Tech Mono', monospace;
-  }
-
   .contact-label{
     font-family: 'Share Tech Mono', monospace;;
   }
@@ -1934,16 +1876,8 @@ textarea{
     position: absolute;
     top: 160px;
     right:3%;
-    background-color: rgb(215, 216, 174);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13pt;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 40%;
-    margin:0;
-    border-radius:20px;
-    padding:2%;
+    background-color: rgb(251, 252, 213);
+    
   }
 
   div{
@@ -1987,6 +1921,11 @@ textarea{
     margin-left: 8%;
     font-size: 23pt;
   }
+  #linkedin-button{
+    position: relative;
+    margin-top:80px;
+  }
+  
   #about-container1{
     width:45%;
     right:5%;
@@ -1998,6 +1937,7 @@ textarea{
     top:0;
     right:0;
     margin-top:3%; 
+    margin-left:2%
   }
 
   .nav-bar a{
