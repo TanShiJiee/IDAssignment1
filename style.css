@@ -770,6 +770,7 @@ textarea{
     border-radius: 40px;
     word-wrap: break-word;
   }
+
   button:hover{
     background-color: rgb(238, 235, 190);
   }
@@ -1237,7 +1238,7 @@ textarea{
     color: rgb(194, 202, 240);
     font-size: 30pt;
     cursor: pointer;
-    position: absolute;
+    position: relative;
     top: 45%;
     background-color: rgb(119, 126, 136);
     z-index: 8;
@@ -1710,7 +1711,7 @@ textarea{
     color: rgb(194, 202, 240);
     font-size: 30pt;
     cursor: pointer;
-    position: absolute;
+    position: relative;
     top: 45%;
     background-color: rgb(119, 126, 136);
     z-index: 8;
