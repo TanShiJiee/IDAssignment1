@@ -1,5 +1,7 @@
-# IDAssignment1
-ID assignment 1 website
+# ID Assignment 1 
+This website is targeted at employers who are planning to hire people for their company. It introduces myself to the employers by giving some information about myself, it includes my portfolio, more about me, how they can contact me and the skills I have acquired.
+
+# Design Rationale
 For the home page, you will see a navigation bar at the top of the page, when you hover over it the font and background color will change. Net, when you hover over each photo, the width of the photo will increase, creating a pop-up effect. Lastly, for the welcome button, when you click on it will bring you to the next page. So users can either use the navigation bar or the welcome button.
 
 Next for this about me page, when you hover over the different text, the color of the box will change to turquoise color. And when you hover over the picture, the picture will increase in size but it will stay within the container. Giving it interactivity to the users.
