@@ -193,13 +193,15 @@ footer{
   margin-bottom: 3%;
   margin-left: 2%;
   opacity: 0.5;
-  transition: opacity,width,height 5s;
+  overflow: hidden;
+  transition: opacity 2s ease-in;
   
 }
 .skills:hover{
   opacity:1;
-  width:35.5%;
-  height:auto;
+  width:35%;
+  
+  
 }
 #skills-section{
   font-size: 13pt;
@@ -209,7 +211,28 @@ footer{
   flex:1 100%;
   
 }
+#skillsButton{
+  width:50%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+@keyframes appear{
+  from{justify-content: flex-start;}
+  to {justify-content: center;}
+}
+#skillsChart img{
+  position: relative;
+  display:flex;
+  
+  justify-content: flex-start;
+  animation-name: appear;
+  animation-duration: 10s;
+  
+
+}
 /*Portfolio Page*/
+
 #portfolio-text1{
   border-top: 3px solid ghostwhite;
   display: flex;
@@ -247,7 +270,7 @@ footer{
 #portfolio-slides1{
   font-size:0;
   border-radius: 50px;
-  position: absolute;
+  position: relative;
   top:35%;
   right:25%;
   background-color: rgb(175, 175, 143,0.6);
@@ -256,6 +279,7 @@ footer{
   flex-wrap: wrap;
   overflow: hidden; 
   border:5px solid rgb(175, 175, 143);
+  
 }
   /*align photo to the top*/
 #portfolio-cert1{
@@ -1256,12 +1280,12 @@ textarea{
     margin-left: 2%;
     margin:2%;
     opacity: 0.5;
-    transition: opacity,width,height 5s;
+    transition: opacity 2s;
     
   }
   .skills:hover{
     opacity:1;
-    width:35.5%;
+    width:35%;
     
   }
   #skills-section{
@@ -1779,12 +1803,13 @@ textarea{
     margin-bottom: 3%;
     margin-left: 2%;
     opacity: 0.5;
-    transition: opacity,width,height 5s;
+    transition: opacity 2s;
+    overflow: hidden;
     
   }
   .skills:hover{
     opacity:1;
-    width:35.5%;
+    width:35%;
     
   }
   #skills-section{

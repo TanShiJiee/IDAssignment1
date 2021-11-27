@@ -55,7 +55,6 @@ function scrollUp(){
 
 }
 
-var message='Thank you!'
-function messageAppear(){
-    
-}
+
+
+
