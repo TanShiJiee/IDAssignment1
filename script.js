@@ -1,8 +1,20 @@
-
-
+//skills page
+//When button is clicked, image fades in/out
+function contentAppear(){
+    var chart=document.querySelector("#skillsChart")
+    console.log(chart)
+    var transparency=chart.style.opacity
+    console.log(transparency)
+    if (transparency==0){
+        chart.style.opacity=1 ;
+    }
+    else{
+        chart.style.opacity=0;
+    }
+}
 
 //Portfolio Page
-
+//array of pictures
 const checkCerts = ["#portfolio-cert1", "#portfolio-cert2", "#portfolio-cert3", 
 "#portfolio-cert4", "#portfolio-cert5", "#portfolio-cert6", "#portfolio-cert7"];
 
@@ -12,8 +24,6 @@ if index is more than 7 make index=1 (Go back to SLIDE 1).
 make loop and change opacity*/
 
 var index= 0;
-
-
 function slidesTurn(n){
     //find index
     var slidesPosition=null;
@@ -41,35 +51,16 @@ function slidesTurn(n){
             slidesPosition.style.opacity=0
             //console.log(i) 
         }
-        
-
     }
-
 }
 
-
+//button at the bottom of page scrolls to the top when clicked
 function scrollUp(){
     //var portfolioTop= getElementById("myDIV");
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-
 }
 
 
-function contentAppear(){
-    
-    var chart=document.querySelector("#skillsChart")
-    console.log(chart)
-    var transparency=chart.style.opacity
-    console.log(transparency)
-    if (transparency==0){
-        chart.style.opacity=1 ;
-    }
-    else{
-        chart.style.opacity=0;
-    }
-    
-    
-}
 
 

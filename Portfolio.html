@@ -13,10 +13,10 @@
     <script src="script.js"></script>
   </head>
   <body>
-    
     <header>
       <h4 class="name-text">Portfolio</h4>
     </header>
+
     <section id="menu-bar" >
       <nav class="nav-bar" >
         <ul>
@@ -29,8 +29,8 @@
       </nav>
     </section>
 
-    <div id="portfolio-text1" onclick="contentAppear()">
-      <p><b>Testimonial/Certificates:</b></p>
+    <div id="portfolio-text1">
+      <h4>Testimonial/Certificates:</h4>
     </div>
 
     <!--slider-->
@@ -60,82 +60,65 @@
 
       <!--Left & Right Button-->
       <div id="turn-button">
-         
           <a id="left-button" onclick="slidesTurn(-1)">&#10094;</a> <!-- < button-->
-        
-        
           <a id="right-button" onclick="slidesTurn(1)">&#10095;</a> <!-- > button-->
-        
-        
       </div>
-
-      
     </section>
-  
-  <div id="portfolio-text2" onclick="contentAppear()">
-    <p><b>Others:</b></p>
-  </div>
-  <section id="others-section">
-    <div id="others-header">
-      MY JOURNEY:
+    <!--text header-->
+    <div id="portfolio-text2">
+      <h4>Others:</h4>
     </div>
 
-    <div id="others-header2">
-      <p>SINGAPORE - SUNDAY - 21 NOVEMBER 2021 - LIFESTYLE </p>
-    </div>
-    
-  <!--Collage 1--> 
-    <p class="others-text1">Travel</p>
-    <div class="others-row">
-      <div class="others-column">
-        <img class="others-grid" src="portfolioPage/travel/Europe.jpg" alt="Europe">
-        <img class="others-grid" src="portfolioPage/travel/Europe2.jpg" alt="Europe">
-        <img class="others-grid" src="portfolioPage/travel/taiwan.jpg" alt="Taiwan">
-        <img class="others-grid" src="portfolioPage/travel/taiwan2.jpeg" alt="Taiwan">
-        
-      </div>
-      <div class="others-column">
-        <img class="others-grid" src="portfolioPage/travel/taiwan3.jpeg" alt="Taiwan">
-        
-        <img class="others-grid" src="portfolioPage/travel/taiwan4.jpeg" alt="Taiwan">
-        <img class="others-grid" src="portfolioPage/travel/taiwan5.jpeg" alt="Taiwan">
-        <img class="others-grid" src="portfolioPage/travel/korea.jpg" alt="Korea">
+    <section id="others-section">
+      <div id="others-header">
+        MY JOURNEY:
       </div>
 
-<!--Collage 2-->
-    </div>
-    <p class="others-text1">Projects & Experiences</p>
-    <div class="others-row">
-      <div class="others-column">
-        <img class="others-grid" src="portfolioPage/experience/syf1.jpg" alt="SYF 2019">
-        <img class="others-grid" src="portfolioPage/experience/danceConcept.png" alt="Dance concept photo">
-        
-        <img class="others-grid" src="portfolioPage/experience/korea2.jpg" alt="Immersion Trip">
-        <img class="others-grid" src="portfolioPage/experience/Design1.gif" alt="DP Animation">
+      <div id="others-header2">
+        <p>SINGAPORE - SUNDAY - 21 NOVEMBER 2021 - LIFESTYLE </p>
       </div>
-      <div class="others-column">
-        
-        <img class="others-grid" src="portfolioPage/experience/syf2.png" alt="SYF 2019">
-        <img class="others-grid" src="portfolioPage/experience/design2.jpg" alt="DP Infographics Design">
-        <img class="others-grid" src="portfolioPage/experience/logo_competition.png" alt="Logo Design Competition ">
-        
-        <img class="others-grid" src="portfolioPage/experience/design3.png" alt="3DF Car Model">
-        <img class="others-grid" src="portfolioPage/experience/design4.png" alt="3DF Foodtruck Model">
-        
-        <button id="scroll-up" onclick="scrollUp()">Scroll to Top</button>
-        
-    </div>
+      
+      <!--Collage 1--> 
+      <p class="others-text1">Travel</p>
+      <div class="others-row">
+        <div class="others-column">
+          <img class="others-grid" src="portfolioPage/travel/Europe.jpg" alt="Europe">
+          <img class="others-grid" src="portfolioPage/travel/Europe2.jpg" alt="Europe">
+          <img class="others-grid" src="portfolioPage/travel/taiwan.jpg" alt="Taiwan">
+          <img class="others-grid" src="portfolioPage/travel/taiwan2.jpeg" alt="Taiwan">
+          
+        </div>
+        <div class="others-column">
+          <img class="others-grid" src="portfolioPage/travel/taiwan3.jpeg" alt="Taiwan">
+          
+          <img class="others-grid" src="portfolioPage/travel/taiwan4.jpeg" alt="Taiwan">
+          <img class="others-grid" src="portfolioPage/travel/taiwan5.jpeg" alt="Taiwan">
+          <img class="others-grid" src="portfolioPage/travel/korea.jpg" alt="Korea">
+        </div>
 
-  </section>
-  
-  
+      <!--Collage 2-->
+      </div>
+      <p class="others-text1">Projects & Experiences</p>
 
-
-    
-
-
-
-
+      <div class="others-row">
+        <div class="others-column">
+          <img class="others-grid" src="portfolioPage/experience/syf1.jpg" alt="SYF 2019">
+          <img class="others-grid" src="portfolioPage/experience/danceConcept.png" alt="Dance concept photo">
+          
+          <img class="others-grid" src="portfolioPage/experience/korea2.jpg" alt="Immersion Trip">
+          <img class="others-grid" src="portfolioPage/experience/Design1.gif" alt="DP Animation">
+        </div>
+        <div class="others-column">
+          <img class="others-grid" src="portfolioPage/experience/syf2.png" alt="SYF 2019">
+          <img class="others-grid" src="portfolioPage/experience/design2.jpg" alt="DP Infographics Design">
+          <img class="others-grid" src="portfolioPage/experience/logo_competition.png" alt="Logo Design Competition ">
+          <img class="others-grid" src="portfolioPage/experience/design3.png" alt="3DF Car Model">
+          <img class="others-grid" src="portfolioPage/experience/design4.png" alt="3DF Foodtruck Model">
+          <!--button directing user to top of page-->
+          <button id="scroll-up" onclick="scrollUp()">Scroll to Top</button>
+        </div>
+      </div>
+    </section>
     
   </body>
 </html>
