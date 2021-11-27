@@ -94,6 +94,10 @@ img{ /* Image for About me & Certs*/
   font-size: 20pt;
   width:100%;
 }
+#welcome-text{
+  display: flex;
+  align-items: center;
+}
 
 /*About me Page*/
 #about-me-text{
@@ -887,7 +891,7 @@ textarea{
     background-color: rgb(230, 227, 227);
     font-family: 'Source Sans Pro', sans-serif;
     list-style-type: none;
-    text-decoration-style: dotted;
+    
   }
 
   .nav-bar{
