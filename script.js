@@ -2,9 +2,9 @@
 //When button is clicked, image fades in/out
 function contentAppear(){
     var chart=document.querySelector("#skillsChart")
-    console.log(chart)
+    //console.log(chart)
     var transparency=chart.style.opacity
-    console.log(transparency)
+    //console.log(transparency)
     if (transparency==0){
         chart.style.opacity=1 ;
     }
