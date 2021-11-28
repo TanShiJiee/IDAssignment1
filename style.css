@@ -226,6 +226,7 @@ footer{
   transition: opacity 2s;
 }
 
+/*portfolio page*/
 #portfolio-text1{
   border-top: 3px solid ghostwhite;
   display: flex;

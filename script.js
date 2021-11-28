@@ -54,11 +54,10 @@ function slidesTurn(n){
     }
 }
 
-//button at the bottom of page scrolls to the top when clicked
+//button at the bottom of page goes to the top when clicked
 function scrollUp(){
-    //var portfolioTop= getElementById("myDIV");
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+    window.scrollTo(0,0);
+    
 }
 
 
