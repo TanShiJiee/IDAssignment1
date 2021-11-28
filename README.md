@@ -1,4 +1,5 @@
 # ID Assignment 1 
+The webpage created by me, serves as an online platform for employers to know more about me.
 
 # Design Rationale
 ## Target Audience
@@ -31,8 +32,10 @@
 
 # Credits
 ## Media
-* Images were obtained from [@strictlyminors](https://www.instagram.com/strictlyminors/) on Instagram.
+* Dance Images were obtained from [@strictlyminors](https://www.instagram.com/strictlyminors/) on Instagram.
 * Images sourced by me.
 ## Content
+* Text Containers in the About Me Page was referenced from [w3schools](https://www.w3schools.com/css/default.asp).
+* "Click me" Button in the Contact Page was referenced from [w3schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp).
 ## Acknowledgements
 * Instagram Icon was inspired by official Instagram logo.
