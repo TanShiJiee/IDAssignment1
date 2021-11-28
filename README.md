@@ -1,9 +1,11 @@
 # ID Assignment 1 
-This website is targeted at employers who are planning to hire people for their company. It introduces myself to the employers by giving some information about myself, it includes my portfolio, more about me, how they can contact me and the skills I have acquired.
 
 # Design Rationale
 ## Target Audience
+* The target audience for the webpage are employers or hiring companies who would like to know more about me.
 ## Aim of Website
+* The aim of the webpage is to introduce myself to the employers by giving some information about myself via an online platform. The webpage includes my portfolio, more about me, how they can contact me and the skills I have acquired.
+
 # Features
 ## Home Page
 * Navigation Bar: Users can hover over the different pages and the background colour would change.
@@ -29,4 +31,8 @@ This website is targeted at employers who are planning to hire people for their 
 
 # Credits
 ## Media
+* Images were obtained from @strictlyminors on Instagram.
+* Images sourced by me.
 ## Content
+## Acknowledgements
+* Instagram Icon was inspired by official Instagram logo.
