@@ -31,7 +31,7 @@
 
 # Credits
 ## Media
-* Images were obtained from @strictlyminors on Instagram.
+* Images were obtained from (@strictlyminors)[https://www.instagram.com/strictlyminors/] on Instagram.
 * Images sourced by me.
 ## Content
 ## Acknowledgements
