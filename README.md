@@ -2,6 +2,7 @@
 The webpage created by me, serves as an online platform for employers to know more about me.
 
 # Design Rationale
+Colour Palette used for the webpage are mainly Black, Grey, Pale Yellow, Turquoise
 ## Target Audience
 * The target audience for the webpage are employers or hiring companies who would like to know more about me.
 ## Aim of Website
@@ -29,6 +30,10 @@ The webpage created by me, serves as an online platform for employers to know mo
 * Form: Users can fill up the form from the webpage, the form is validated.
 * Linkedin Button: When the button is clicked, the user will be brought to a new tab to view my Linkedin profile.
 * Instagram Icon: When the button is clicked, the user will be brought to a new tab to view my Instagram profile.
+
+# Testing
+* Tested on Microsoft Edge Browser
+* Tested on Google Chrome
 
 # Credits
 ## Media
