@@ -1611,6 +1611,7 @@ textarea{
   }
 
   #about-photo1{
+    width:100%;
     font-size:0;
     position: relative;
     display: inline-block;
@@ -1637,6 +1638,7 @@ textarea{
   }
 
   #about-photo2{
+    width:100%;
     font-size:0;
     position: relative;
     display: inline-block;
