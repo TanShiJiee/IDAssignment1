@@ -110,6 +110,7 @@ img{ /* Image for About me & Certs*/
   margin-left: 0.3cm;
   margin-bottom: 0.3cm;
   margin-right:0.3cm;
+  margin-top:1%;
   padding: 0.2cm;
   transition: background-color 0.5s;
 }
@@ -648,6 +649,7 @@ textarea{
     position: relative;
     flex-direction: row;
     margin-bottom: 4%;
+    margin-top:2%;
     width:100%;
     display:flex;
     overflow: hidden;   
@@ -1148,6 +1150,33 @@ textarea{
 
   .nav-bar a{
     font-size: 14pt;
+  }
+  /*About me page*/
+  #about-photo1{
+    width:60%;
+  }
+  #about-photo2{
+    width:60%;
+  }
+  #about-me-text{
+    width:80%;
+    margin-left:  10%;
+    margin-right: 10%;
+  }
+  #about-me-text2{
+    width:80%;
+    margin-left:  10%;
+    margin-right: 10%;
+  }
+  #about-me-text3{
+    width:80%;
+    margin-left:  10%;
+    margin-right: 10%;
+  }
+  #about-me-text4{
+    width:80%;
+    margin-left:  10%;
+    margin-right: 10%;
   }
   
   /* Skills Section*/

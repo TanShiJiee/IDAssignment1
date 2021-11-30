@@ -2,9 +2,9 @@
 //When button is clicked, image fades in/out
 function contentAppear(){
     var chart=document.querySelector("#skillsChart")
-    //console.log(chart)
+    console.log(chart)
     var transparency=chart.style.opacity
-    //console.log(transparency)
+    console.log(transparency)
     if (transparency==0){
         chart.style.opacity=1 ;
     }
@@ -14,7 +14,7 @@ function contentAppear(){
 }
 
 //Portfolio Page
-//array of pictures
+//create an array of pictures
 const checkCerts = ["#portfolio-cert1", "#portfolio-cert2", "#portfolio-cert3", 
 "#portfolio-cert4", "#portfolio-cert5", "#portfolio-cert6", "#portfolio-cert7"];
 
@@ -25,7 +25,7 @@ make loop and change opacity*/
 
 var index= 0;
 function slidesTurn(n){
-    //find index
+    //find slide number
     var slidesPosition=null;
     index+=n;
     
@@ -41,7 +41,6 @@ function slidesTurn(n){
         if (i==index){
             slidesPosition= document.querySelector(checkCerts[i])
             slidesPosition.style.opacity=1
-
             //console.log(slidesPosition)
             continue
             
@@ -53,13 +52,9 @@ function slidesTurn(n){
         }
     }
 }
-
-//button at the bottom of page goes to the top when clicked
+//button referenced to w3schools
+//button at the bottom of page scrolls to the top when clicked
 function scrollUp(){
     window.scrollTo(0,0);
     
 }
-
-
-
-
