@@ -98,6 +98,13 @@ img{ /* Image for About me & Certs*/
   display: flex;
   align-items: center;
 }
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(116, 88, 88);
+  width:100%;
+}
 
 /*About me Page*/
 #about-me-text{
@@ -171,14 +178,6 @@ img{ /* Image for About me & Certs*/
 
 #about-me-text4:hover{
   background-color: rgb(156, 235, 215);
-}
-
-footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(116, 88, 88);
-  width:100%;
 }
 
 /*Skills Section*/
@@ -1152,12 +1151,16 @@ textarea{
     font-size: 14pt;
   }
   /*About me page*/
-  #about-photo1{
-    width:60%;
+  #about-container1{
+    margin-left:5%;
+    width:90%;
   }
-  #about-photo2{
-    width:60%;
+
+  #about-container2{
+    margin-left:5%;
+    width:90%;
   }
+
   #about-me-text{
     width:80%;
     margin-left:  10%;
@@ -1178,6 +1181,8 @@ textarea{
     margin-left:  10%;
     margin-right: 10%;
   }
+  
+  
   
   /* Skills Section*/
   .skills{
@@ -1650,7 +1655,7 @@ textarea{
 
   #about-photo2:hover{
     transform: scale(1.2);
-    transform-origin: 50% 50%;
+    /*transform-origin: 50% 50%;*/
   }
 
   /* Skills Section*/
