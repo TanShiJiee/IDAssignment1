@@ -44,6 +44,7 @@ Colour Palette used for the webpage are mainly Black, Grey, Pale Yellow, Turquoi
 * Text Containers in the About Me Page was referenced from [w3schools](https://www.w3schools.com/css/default.asp).
 * "Click me" Button in the Contact Page was referenced from [w3schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp).
 * Text fonts used from [Google Fonts](https://fonts.google.com/)
+* Normalize.css file downloaded from [github](https://necolas.github.io/normalize.css/)
 ## Acknowledgements
 * Instagram Icon in contact page was inspired by official Instagram logo.
 
