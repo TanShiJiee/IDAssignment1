@@ -204,6 +204,7 @@ footer{
 }
 
 #skills-section{
+  text-align: center;
   font-size: 13pt;
   display:flex;
   margin-left: 8%;
